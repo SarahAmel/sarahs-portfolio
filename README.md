@@ -36,7 +36,7 @@ This app runs in the browser and lineaments dynamically updated HTML and designe
 
 
 
-[live link](https://sarahamel.github.io/sarahs-portfolio/)
+[Live link](https://sarahamel.github.io/sarahs-portfolio/)
 
 
 
