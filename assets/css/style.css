@@ -1,0 +1,80 @@
+header{
+/* position:relative; */
+/* width: 100px; */
+height: 100px;
+margin-top: 0;
+/* margin-bottom: auto; */
+background-color: blueviolet;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+border-bottom: 5px solid pink;
+}
+
+
+/* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ dark-blue ; */
+
+header h1{
+
+    margin: 0;
+    padding: 10px 20px;
+    /* padding: 50px; */
+    /* height: 300px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f073ca;
+    border:rgb(38, 192, 79) 5px solid;
+    border-radius: 10px;
+}
+
+
+nav{
+text-align: center;
+border-bottom: plum 5px solid; 
+background-color: aqua;
+/* width: 10px; */
+/* padding: 50px; */
+/* height: 30px; */
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul {
+    /* // with display flex you need to center the items using align-items to get them vertically center// */
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* // list style none got rid of the bullets // thx doc  */
+
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+main{
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 20px;
+}
+
+
+
+
+
+
