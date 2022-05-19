@@ -9,7 +9,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 20px;
-border-bottom: 5px solid pink;
+border-bottom: 5px solid rgb(89, 242, 89);
+border-top: 8px solid rgb(72, 230, 101);
 }
 
 
@@ -31,7 +32,9 @@ header h1{
 
 nav{
 text-align: center;
-border-bottom: plum 5px solid; 
+border-bottom: 5px solid rgb(86, 245, 110); 
+border-top: 5px solid rgb(72, 230, 101);
+/* border-top: solid rgb(72, 230, 101); */
 background-color: aqua;
 /* width: 10px; */
 /* padding: 50px; */
@@ -69,12 +72,24 @@ main{
     text-align: center;
 }
 
-.footer h4 {
+/* .footer h4 {
     font-size: 20px;
-}
+} */
 
 
 
 
-
+footer{
+    height: 100px;
+    margin-top: 0;
+    background-color: rgb(251, 133, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    border-bottom: 8px solid rgb(72, 230, 101);
+    font-size: 20px;
+    border-top: 8px solid rgb(72, 230, 101);
+    }
+    
 
